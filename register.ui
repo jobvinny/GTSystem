@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Register</class>
+ <widget class="QDialog" name="Register">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>858</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>New Entries</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image:url(&quot;C:/Users/Tech Guy/Documents/QT Projects/GTSystem/img/superveloche.png&quot;);
+color:rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="studentform">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>381</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:34px;
+text-align:center;
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>NEW STUDENT ENTRIES</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="newstudent">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>841</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0.7);
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="title">
+    <string>New Student</string>
+   </property>
+   <widget class="QLineEdit" name="regno">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>221</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(186, 189, 182);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter Registration_No</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="firstname">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>221</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(186, 189, 182);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter First Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lastname">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>221</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(186, 189, 182);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter Last Name</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateofbirth">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Choose Date Of Birth(MM/DD/YY)</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>581</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(37, 197, 197);</string>
+    </property>
+    <property name="title">
+     <string>Main Entries</string>
+    </property>
+    <widget class="QGroupBox" name="groupcourses">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>581</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(255, 255, 255);</string>
+     </property>
+     <property name="title">
+      <string>Courses Entries</string>
+     </property>
+     <widget class="QLineEdit" name="courseid3">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>100</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Course ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="courseid4">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>140</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Course ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="course5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Course Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="course4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Course Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="course1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Course Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="courseid6">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>220</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Course ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="courseid2">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>60</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Course ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="course2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Course Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="course3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Course Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="courseid5">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>180</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Course ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="course6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>220</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Enter Course Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="courseid1">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>20</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Course ID</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lecture1">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>20</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Lecturer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lecture2">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>60</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Lecturer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lecture3">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>100</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Lecturer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lecture4">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>140</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Lecturer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lecture5">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>180</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Lecturer</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lecture6">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>220</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Lecturer</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="programs">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>50</y>
+       <width>461</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(255, 255, 255);</string>
+     </property>
+     <property name="title">
+      <string>Program Entry</string>
+     </property>
+     <widget class="QLineEdit" name="programid">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>20</y>
+        <width>211</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(186, 189, 182);</string>
+      </property>
+      <property name="placeholderText">
+       <string>Program ID</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="course">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(0, 0, 0);
+</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Choose program</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bsc.Applied Computer Science</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bsc.Computer Science</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="save">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+ border-width: 3px;
+    border-radius: 20px;
+    border-color:rgb(115, 210, 22);
+  /*  min-width: 10em;*/
+    padding: 6px;</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>280</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+ border-width: 3px;
+    border-radius: 20px;
+    border-color:rgb(204, 0, 0);
+  /*  min-width: 10em;*/
+    padding: 6px;
+</string>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logout">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>340</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style: outset;
+ border-width: 3px;
+    border-radius: 20px;
+    border-color:rgb(206, 92, 0);
+  /*  min-width: 10em;*/
+    padding: 6p</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

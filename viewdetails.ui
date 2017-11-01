@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewDetails</class>
+ <widget class="QDialog" name="ViewDetails">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Student Details</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image:url(&quot;C:/Users/Tech Guy/Documents/QT Projects/GTSystem/img/superveloche.png&quot;);
+color:rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="studentform">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>10</y>
+     <width>291</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:34px;
+text-align:center;
+color:rgb(255, 255, 255);
+
+</string>
+   </property>
+   <property name="text">
+    <string>STUDENT DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>400</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:20px;
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Program Details</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>240</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:20px;
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Student Personal Details</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourse4">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>270</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourse5">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>310</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourseid5">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>310</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourseid3">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>230</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>100</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:20px;
+color:rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Course Detaills</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourseid4">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>270</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sregno">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>300</y>
+     <width>221</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Registration_No</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourseid6">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>350</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course ID</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>180</y>
+     <width>20</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourse1">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>150</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourse2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>190</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourse6">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>350</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourseid2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>190</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourseid1">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>150</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="scourse3">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>230</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Course Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sprogramid">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>440</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Program ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>400</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Choose Date Of Birth(MM/DD/YY)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="programname">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>440</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Program Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dobirth">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>440</y>
+     <width>221</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>MM/DD/YY</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>311</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Enter Your Details To View Records</string>
+   </property>
+   <widget class="QLineEdit" name="viewname">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(186, 189, 182);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter UserName</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="viewreg">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(186, 189, 182);</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Enter Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;eufm10&quot;;
+background-color:rgb(211, 215, 207);
+border-style: outset;
+ border-width: 3px;
+    border-radius: 20px; 
+border-color: rgb(140, 73, 255);
+  /*  min-width: 10em;*/
+    padding: 6px;</string>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="logout">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>490</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-style: outset;
+ border-width: 3px;
+    border-radius: 20px;
+    border-color:rgb(206, 92, 0);
+  /*  min-width: 10em;*/
+    padding: 6px</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="slecture2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>190</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Lecturer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="slecture1">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>150</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Lecturer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="slecture4">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>270</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Lecturer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="slecture5">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>310</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Lecturer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="slecture3">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>230</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Lecturer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="slecture6">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>350</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Lecturer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sfirstname">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>360</y>
+     <width>221</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(186, 189, 182);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Update First Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slabel_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>330</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Student Full Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slabel_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>270</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Student Registration Number</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Welcome">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>471</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 248, 193);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
