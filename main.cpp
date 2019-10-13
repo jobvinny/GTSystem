@@ -13,7 +13,7 @@
 #include <QtSql/QSqlDatabase>
 #include <QtSql/qsql.h>
 #include <QtSql/qsqldatabase.h>
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) // main() function is here! :D
 {
     QApplication a(argc, argv);
     MainWindow w;
